@@ -14,7 +14,7 @@ namespace SistemaCobroAgua.DAL
         //constructor para crear la base de datos en base se coloca
         //la cadena de conexion. Se utiliza con entity framework
         //la arroba se usa para que acepte cualquier simbolo en la conexio a SQL Server
-        const string miConexionSqlServer = @"Data Source=DESKTOP-KP1MSVR\SQLEXPRESS;Initial Catalog=CobroAguaDB;Integrated Security=True"; 
+        const string miConexionSqlServer = @"Data Source=;Initial Catalog=CobroAguaDB;Integrated Security=True"; 
         public CobroAguaContext() : base(miConexionSqlServer)
         {
         }
